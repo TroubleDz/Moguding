@@ -6,7 +6,7 @@ import json
 import sys
 
 phone_Key = os.environ['Phone']
-password_Key = os.environ['Pasword']
+password_Key = os.environ['Password']
 address_Key = os.environ['Address']
 
 try:
