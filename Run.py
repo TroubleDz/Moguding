@@ -5,9 +5,9 @@ import os
 import json
 import sys
 
-phone_Key = os.environ['PHONE']
-password_Key = os.environ['PASSWORD']
-address_Key = os.environ['ADDRESS']
+phone_Key = os.environ['Phone']
+password_Key = os.environ['Pasword']
+address_Key = os.environ['Address']
 
 try:
     Md = Moguding(phone_Key, password_Key, address_Key)
